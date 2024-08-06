@@ -1,0 +1,18 @@
+pwd
+cd OneDrive/Desktop
+pwd
+mkdir Pets
+cd Pets
+mkdir Dogs
+mkdir Cats
+cd Cats
+vi name.txt
+My name is Lucky! Bark!
+ -> 'Esc'
+ -> :wq
+cat name.txt
+cd ..
+cp Cats/name.txt Dogs
+rm -r Cats
+mv Dogs Lucky
+ls
